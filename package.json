@@ -10,7 +10,8 @@
     "start": "node start.js",
     "lint": "standard",
     "test": "gulp test && npm run lint",
-    "heroku-prebuild": "node ./scripts/set-npmrc.js"
+    "heroku-prebuild": "mv node_modules/@govuk-frontend/ .; rm -rf node_modules",
+    "postinstall": "mv @govuk-frontend/ node_modules"
   },
   "dependencies": {
     "basic-auth": "^1.0.3",
