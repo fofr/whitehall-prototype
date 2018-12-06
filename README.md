@@ -1,6 +1,6 @@
 # GOV.UK Whitehall Prototype
 
-https://whitehall-prototype.herokuapp.com
+https://prototype-whitehall.herokuapp.com/ (this runs the prototype as it was built in March 2018)
 
 Built by the GOV.UK Publishing Workflow team using the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/docs).
 
